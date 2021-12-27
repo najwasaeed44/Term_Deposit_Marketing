@@ -1,14 +1,16 @@
 <br><br>
 
-<p style = "font-size:10vw; text-align: center;"> Term Deposit Marketing </p>
 
 
 <p style="text-align:center;"><img src="https://i.pinimg.com/originals/cd/6e/96/cd6e965e0a5769560a5c88d471fe0cb1.gif" alt="Logo"></p>
 
+<h1 style = "font-size:10vw; text-align: center;"> Term Deposit Marketing </h1>
+
+<br><br>
 
 
 
-# Background:
+## Background:
 
 We are a small startup focusing mainly on providing machine learning solutions in the European banking market. We work on a variety of problems including fraud detection, sentiment classification and customer intention prediction and classification.
 
@@ -16,11 +18,11 @@ We are interested in developing a robust machine learning system that leverages 
 
 Ultimately, we are looking for ways to improve the success rate for calls made to customers for any product that our clients offer. Towards this goal we are working on designing an ever evolving machine learning product that offers high success outcomes while offering interpretability for our clients to make informed decisions.
 
-# Data Description:
+## Data Description:
 
 The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
 
-# Attributes:
+## Attributes:
 <table >
   <tr>
     <th style = 'text-align: center'>Column</th>
@@ -90,7 +92,7 @@ The data comes from direct marketing efforts of a European banking institution. 
 Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
 
 
-# Project Overview
+## Project Overview
 As you can see, we have a high bias data toward the `no` or `non-subscribers` class, as a result, multiple technics have been applied to improve the score like **random search**, **oversampling**, **undersampling**, **MLP**, and finally **Recursive Feature Elimination**.
 <br><br>
 
