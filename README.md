@@ -1,10 +1,7 @@
 <br>
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
-<img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left">
-
-# Term Deposit Marketing
-<hr style="height:4px;border-width:10;color:blue;background-color:black">
+<img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left"><h1>Term Deposit Marketing</h1><hr style="height:4px;border-width:10;color:blue;background-color:black">
 
 <br><br><br><br>
 
@@ -22,9 +19,11 @@ Ultimately, we are looking for ways to improve the success rate for calls made t
 
 
 <img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="60" height="60" align="left">
-<h3> Data Description:</h3>
+## Data Description:
 
-<hr style="height:1.5px;border-width:10;color:blue;background-color:black">The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
+<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
+
+The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
 
 
 <br><br>
