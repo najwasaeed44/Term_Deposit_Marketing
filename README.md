@@ -1,111 +1,136 @@
-<br><br>
+<br>
+<hr style="height:4px;border-width:10;color:blue;background-color:black">
+
+<img src="img/logo.png" alt="Smiley face" width="100" height="100" style="float:left">
+
+# Term Deposit Marketing
+<hr style="height:4px;border-width:10;color:blue;background-color:black">
+
+<br><br><br><br>
 
 
-
-<p style="text-align:center;"><img src="https://i.pinimg.com/originals/cd/6e/96/cd6e965e0a5769560a5c88d471fe0cb1.gif" alt="Logo"></p>
-
-<br><br>
-
-
-<h1 style = "font-size:10vw; text-align: center;"> Term Deposit Marketing </h1>
-
-<br><br>
-
-
+<img src="https://images.genial.ly/59e059d30b9c21060cb4c2ec/5bbf17763292ef649e9b810f/175cbb1e-df65-405a-9cd0-cf177e1a2f00.gif?genial&1633910400074" alt="Smiley face" width="60" height="60" style="float:left">
 
 ## Background:
+<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
 
 We are a small startup focusing mainly on providing machine learning solutions in the European banking market. We work on a variety of problems including fraud detection, sentiment classification and customer intention prediction and classification.
 
 We are interested in developing a robust machine learning system that leverages information coming from call center data.
-
 Ultimately, we are looking for ways to improve the success rate for calls made to customers for any product that our clients offer. Towards this goal we are working on designing an ever evolving machine learning product that offers high success outcomes while offering interpretability for our clients to make informed decisions.
-
-## Data Description:
-
-The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
-
-## Attributes:
-<table >
-  <tr>
-    <th style = 'text-align: center'>Column</th>
-    <th style = 'text-align: center'>Meaning</th>
-  </tr>
-  <tr>
-    <td style = 'text-align: center'>age</td>
-    <td style = 'text-align: left'>age of customer (numeric)</td>
-  </tr>
-  <tr>
-    <td style = 'text-align: center'>job</td>
-    <td style = 'text-align: left'>type of job (categorical)</td>
-  </tr>
-  <tr>
-    <td style = 'text-align: center'>marital </td>
-    <td style = 'text-align: left'>marital status (categorical)</td>
-  </tr>
-  <tr>
-    <td style = 'text-align: center'>education </td>
-    <td style = 'text-align: left'>education (categorical)</td>
-  </tr>
-  <tr>
-    <td style = 'text-align: center'>default</td>
-    <td style = 'text-align: left'>has credit in default? (binary)</td>
-  </tr>
-  <tr>
-    <td style = 'text-align: center'>balance</td>
-    <td style = 'text-align: left'>average yearly balance, in euros (numeric)</td>
-  </tr>
-    <tr>
-        <td style = 'text-align: center'>housing</td>
-        <td style = 'text-align: left'>has a housing loan? (binary)</td>
-      </tr>
-<tr>
-        <td style = 'text-align: center'>loan</td>
-        <td style = 'text-align: left'>has personal loan? (binary)</td>
-      </tr>
-<tr>
-        <td style = 'text-align: center'>contact</td>
-        <td style = 'text-align: left'> contact communication type (categorical)</td>
-      </tr>
-<tr>
-        <td style = 'text-align: center'>day</td>
-        <td style = 'text-align: left'>last contact day of the month (numeric)</td>
-      </tr>
-<tr>
-        <td style = 'text-align: center'>month</td>
-        <td style = 'text-align: left'> last contact month of year (categorical)</td>
-      </tr>
-<tr>
-        <td style = 'text-align: center'>duration</td>
-        <td style = 'text-align: left'>last contact duration, in seconds (numeric)</td>
-      </tr>
-<tr>
-        <td style = 'text-align: center'>campaign</td>
-        <td style = 'text-align: left'>number of contacts performed during this campaign and for this client (numeric, includes last contact)
-</td>
-      </tr>
-<tr>
-        <td style = 'text-align: center'>y</td>
-        <td style = 'text-align: left'>has the client subscribed to a term deposit? (binary)**desired target**</td>
-      </tr>
-</table>
-
-# Goal(s):
-
-Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
-
-
-## Project Overview
-As you can see, we have a high bias data toward the `no` or `non-subscribers` class, as a result, multiple technics have been applied to improve the score like **random search**, **oversampling**, **undersampling**, **MLP**, and finally **Recursive Feature Elimination**.
 <br><br>
 
-[//]: # (<p style="width:500px;height:600px;"><img src="img/img1.png"></p>)
-<p style="width:40vw;height:40vw;"><img src="img/img1.png" alt="Logo"></p>
 
-- The chosen score is: `ROC AUC` score due to the importance of capturing and getting the `subscribers` or the `yes` class.
+<img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="60" height="60" style="float:left">
 
-- The data has been analysed and there are no clear lines between both the classes. On the other hand, the model was able to achieve `86%` of accuracy. Moreover, the classification error rate for the nonsubscribers is `17%`, while it's lower in the subscribers class which is `11%`.
+## Data Description:
+<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
+The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
 
-- To achieve this score many models and technics are tested, some return a high score like oversampling technic and some I believe needs more time like the MLP and test other hyperparameters may return a better score. Anyway, our best model, for now, is the `Linear Discriminant Analysis`.
 
-**OrFuUuD3rXXP8tUk**
+<br><br>
+
+<img src="https://c.tenor.com/1_5w5vXEH5gAAAAj/mandalorian-star-wars.gif" alt="Smiley face" width="60" height="60" style="float:left">
+
+## Attributes:
+<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
+
+| Column     | Description     | Type   | 
+|------------|-----------------| ------ | 
+| `age`      | age of customer. | `numeric` | 
+| `job`      | type of job. | `categorical` | 
+| `marital`  | marital status. | `categorical` | 
+| `education`  | education. | `categorical` |
+| `default`  | has credit in default. | `binary` | 
+| `balance`  | average yearly balance, in euros. | `numeric` | 
+| `housing`  | has a housing loan?. | `binary` | 
+| `loan`     | has personal loan? . | `binary` | 
+| `contact`  | contact communication type. | `categorical` | 
+| `day`      | last contact day of the month. | `numeric` | 
+| `month`    | last contact month of year. | `categorical` | 
+| `duration` | last contact duration, in seconds. | `numeric` | 
+| `campaign` | number of contacts performed during this campaign and for this client. | `numeric` | 
+| `y`        | has the client subscribed to a term deposit?. | `binary` | 
+
+
+<br><br>
+
+<img src="https://media0.giphy.com/media/LmqdA28jZ7bitDeDWr/200.webp" alt="Smiley face" width="60" height="60" style="float:left">
+
+## Project Overview:
+<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
+
+From the analysing, the bias toward the `no` class is clear, the following image shows **~90%** of the data points belong to the no or `not subscribers` class.
+
+[//]: # (![cgapp_create]&#40;img/img1.png&#41;)
+<h1 align="center"><img src="img/img1.png"width=150" width="500px"/><br/></h1>
+
+### **For ML, the plane was:**
+
+
+1. Use the `Lazy Prediction` library to experiment with baseline models and see the top **4** models. After that, I tried to improve their scores through:
+
+    1.1 `Randomized Search`.
+    
+    1.2  `Undersampling technique`.
+    
+    1.3 `Oversampling technique`.
+        
+
+2. Use `NLP` model.
+3. Use `Recursive Feature Elimination`, to see the importance of the features.
+
+### **ML result:**
+
+1. `Baseline models:`
+
+    The top **4** baseline models are:
+
+   - Nearest Centroid Model
+   - Passive Aggressive Classifier Model
+   - GaussianNB Model
+   - Linear Discriminant Analysis Model
+   <br><br>
+   
+    1.1. `Randomized Search`:
+     - All of the models get slightly better with **randomized search hyperparameters** result, which is about **~1%** except the `Passive Aggressive Classifier` model score, it's dropped by **1%**.
+
+     - The `Linear Discriminant Analysis` model has the highest score among of the models with and without the randomized search result, which is **92%**, but the bad news is, this high score came from the nearly ideal identifier for the majority class **(not subscribers)** and really bad classification for the minority class **(subscribers)**.
+
+<h1 align="center"><img src="img/ROC1.png" width="500px "  height="250px "/><br/></h1>
+<h1 align="center"><img src="img/CM1.png"height="350px " width="500px"/><br/></h1>
+
+
+<br><br>
+    1.2. `Undersampling Technique`:
+
+Again, the `Linear Discriminant Analysis` model has the highest score which is `92%` but there is a huge difference in the confusion matrix. The model can classify the minority class by `88%` correct classification instead of `23%` in the previous one.
+<h1 align="center"><img src="img/CM2.png"height="350px " width="500px"/><br/></h1>
+
+<br><br>
+
+<br><br>
+    1.3. `Oversampling Technique`:
+
+It looks like we have nearly the same result with over or under-sampling techniques. The score is high as well as the confusion matrix looks good.
+<h1 align="center"><img src="img/CM3.png"height="350px " width="500px"/><br/></h1>
+
+<br><br>
+
+2. `NLP`:
+
+By using the TensorBoard from TensorFlow, different values have been tested, the test score is `94%`, but the bad news is this model never identify the subscribers class as it's shown in the next image.
+
+
+The test score is `94%`, but the bad news is this model never identify the subscribers class as it's shown in the next image.
+<h1 align="center"><img src="img/CM4.PNG"height="350px " width="500px"/><br/></h1>
+
+
+3. `Recursive Feature Elimination`:
+
+I used the **RandomForestClassifier** model and the result of the importance of the features are shown in the next image.
+<h1 align="center"><img src="img/FI.png"height="500px " width="500px"/><br/></h1>
+
+
+
+<br><br>
