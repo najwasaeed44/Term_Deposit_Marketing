@@ -21,12 +21,9 @@ Ultimately, we are looking for ways to improve the success rate for calls made t
 <br><br>
 
 
-<img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="60" height="60" align="left">
+<img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="60" height="60" style="float:left">
 
-<h1>Data Description:</h1>
-
-<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
-
+## Data Description:<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
 The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
 
 
