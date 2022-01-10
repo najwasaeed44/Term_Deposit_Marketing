@@ -123,7 +123,7 @@ By using the TensorBoard from TensorFlow, different values have been tested, the
 
 
 The test score is `94%`, but the bad news is this model never identify the subscribers class as it's shown in the next image.
-<h1 align="center"><img src="img/CM4.PNG"height="350px " width="500px"/><br/></h1>
+<h1 align="center"><img src="img/CM4.png"height="350px " width="500px"/><br/></h1>
 
 
 3. `Recursive Feature Elimination`:
