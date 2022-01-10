@@ -1,7 +1,4 @@
-<br>
-<hr style="height:4px;border-width:10;color:blue;background-color:black"><img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left"><h1>Term Deposit Marketing</h1><hr style="height:4px;border-width:10;color:blue;background-color:black">
-
-<br><br><br><br>
+<br> <hr style="height:4px;border-width:10;color:blue;background-color:black"><img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left"><h1>Term Deposit Marketing</h1><hr style="height:4px;border-width:10;color:blue;background-color:black"><br><br><br><br>
 
 
 <img src="https://images.genial.ly/59e059d30b9c21060cb4c2ec/5bbf17763292ef649e9b810f/175cbb1e-df65-405a-9cd0-cf177e1a2f00.gif?genial&1633910400074" alt="Smiley face" width="60" height="60" align="left">
