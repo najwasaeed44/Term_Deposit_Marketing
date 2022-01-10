@@ -63,7 +63,7 @@ The data comes from direct marketing efforts of a European banking institution. 
 From the analysing, the bias toward the `no` class is clear, the following image shows **~90%** of the data points belong to the no or `not subscribers` class.
 
 [//]: # (![cgapp_create]&#40;img/img1.png&#41;)
-<h1 align="center"><img src="img/img1.png"width=150" width="500px"/><br/></h1>
+<h1 align="center"><img src="img/img1.png"width=350" width="500px"/><br/></h1>
 
 ### **For ML, the plane was:**
 
