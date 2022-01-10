@@ -1,7 +1,5 @@
 <br>
-<hr style="height:4px;border-width:10;color:blue;background-color:black">
-
-<img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left"><h1>Term Deposit Marketing</h1><hr style="height:4px;border-width:10;color:blue;background-color:black">
+<hr style="height:4px;border-width:10;color:blue;background-color:black"><img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left"><h1>Term Deposit Marketing</h1><hr style="height:4px;border-width:10;color:blue;background-color:black">
 
 <br><br><br><br>
 
@@ -19,6 +17,7 @@ Ultimately, we are looking for ways to improve the success rate for calls made t
 
 
 <img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="60" height="60" align="left">
+
 ## Data Description:
 
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
