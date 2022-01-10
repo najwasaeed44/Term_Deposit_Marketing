@@ -1,7 +1,7 @@
 <br>
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
-<img src="img/logo.png" alt="Smiley face" width="100" height="100" style="float:left">
+<img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left">
 
 # Term Deposit Marketing
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
@@ -9,7 +9,7 @@
 <br><br><br><br>
 
 
-<img src="https://images.genial.ly/59e059d30b9c21060cb4c2ec/5bbf17763292ef649e9b810f/175cbb1e-df65-405a-9cd0-cf177e1a2f00.gif?genial&1633910400074" alt="Smiley face" width="60" height="60" style="float:left">
+<img src="https://images.genial.ly/59e059d30b9c21060cb4c2ec/5bbf17763292ef649e9b810f/175cbb1e-df65-405a-9cd0-cf177e1a2f00.gif?genial&1633910400074" alt="Smiley face" width="60" height="60" align="left">
 
 ## Background:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
@@ -29,7 +29,7 @@ Ultimately, we are looking for ways to improve the success rate for calls made t
 
 <br><br>
 
-<img src="https://c.tenor.com/1_5w5vXEH5gAAAAj/mandalorian-star-wars.gif" alt="Smiley face" width="60" height="60" style="float:left">
+<img src="https://c.tenor.com/1_5w5vXEH5gAAAAj/mandalorian-star-wars.gif" alt="Smiley face" width="60" height="60" align="left">
 
 ## Attributes:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
@@ -54,7 +54,7 @@ Ultimately, we are looking for ways to improve the success rate for calls made t
 
 <br><br>
 
-<img src="https://media0.giphy.com/media/LmqdA28jZ7bitDeDWr/200.webp" alt="Smiley face" width="60" height="60" style="float:left">
+<img src="https://media0.giphy.com/media/LmqdA28jZ7bitDeDWr/200.webp" alt="Smiley face" width="60" height="60" align="left">
 
 ## Project Overview:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
